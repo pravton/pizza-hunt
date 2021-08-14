@@ -34,7 +34,7 @@ npm start
 ```
 
 ## 🌐 Deployed Application Link
-[**Click Here**](http://just-tech-blog.herokuapp.com/) to view the final demo product.
+[**Click Here**](https://blooming-depths-68922.herokuapp.com/) to view the final demo product.https://blooming-depths-68922.herokuapp.com/
 
 
 ## 📝 License
