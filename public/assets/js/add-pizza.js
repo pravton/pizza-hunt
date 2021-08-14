@@ -48,6 +48,8 @@ const handlePizzaSubmit = (event) => {
 
   const formData = { pizzaName, createdBy, size, toppings };
 
+  $pizzaForm.reset();
+
   fetch("/api/pizzas", {
     method: "POST",
     headers: {
@@ -61,8 +63,13 @@ const handlePizzaSubmit = (event) => {
       alert("Pizza created successfully!");
       console.log(postReponse);
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      console.log(err);
+      saveRecord(formData);
+    });
 };
 
 $pizzaForm.addEventListener("submit", handlePizzaSubmit);
 $addToppingBtn.addEventListener("click", handleAddTopping);
+
+

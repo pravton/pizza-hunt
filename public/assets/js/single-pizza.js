@@ -33,7 +33,6 @@ function getPizza() {
 }
 
 function printPizza(pizzaData) {
-  console.log(pizzaData);
 
   pizzaId = pizzaData._id;
 
