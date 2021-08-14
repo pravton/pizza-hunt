@@ -82,6 +82,7 @@ module.exports = (
   }
 
   const minutes = dateObj.getMinutes();
+  console.log(minutes);
 
   // set `am` or `pm`
   let periodOfDay;
@@ -96,3 +97,4 @@ module.exports = (
 
   return formattedTimeStamp;
 };
+
