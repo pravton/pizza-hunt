@@ -1,7 +1,7 @@
 
 # PIZZA HUNT
 ![badge](https://img.shields.io/badge/licence-MIT-green) ![badge](https://img.shields.io/badge/-HTML-red) ![badge](https://img.shields.io/badge/-CSS-red) ![badge](https://img.shields.io/badge/-Javascript-red) ![badge](https://img.shields.io/badge/-Node.js-red)
-![badge](https://img.shields.io/badge/-Express.js-red) ![badge](https://img.shields.io/badge/-MongoDB-red) ![badge](https://img.shields.io/badge/-mongoose-red) ![badge](https://img.shields.io/badge/-Dotenv-red)  
+![badge](https://img.shields.io/badge/-Express.js-red) ![badge](https://img.shields.io/badge/-MongoDB-red) ![badge](https://img.shields.io/badge/-mongoose-red)
 
 ## 📜 Description
 A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. 
